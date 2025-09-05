@@ -14,6 +14,8 @@ a1 = wd.Chrome(service = Service('chromedriver.exe'), options=q1)
 
 #打开一个网页
 a1.get('https://www.baidu.com')
+a1.set_window_position(400, 100)  #设置窗口位置
+a1.set_window_size(800, 600)      #设置窗口大小
 a1.maximize_window()  #最大化窗口
 #等待2秒
 sleep(2)
