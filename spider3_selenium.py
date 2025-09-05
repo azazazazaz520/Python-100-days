@@ -14,6 +14,10 @@ a1 = wd.Chrome(service = Service('chromedriver.exe'), options=q1)
 
 #打开一个网页
 a1.get('https://www.baidu.com')
+a1.maximize_window()  #最大化窗口
+#等待2秒
+sleep(2)
+a1.minimize_window()  #最小化窗口
 sleep(2)
 #关闭当前标签页
 a1.close()
