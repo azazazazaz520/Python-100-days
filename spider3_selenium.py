@@ -14,3 +14,6 @@ a1 = wd.Chrome(service = Service('chromedriver.exe'), options=q1)
 
 #打开一个网页
 a1.get('https://www.baidu.com')
+sleep(2)
+#关闭当前标签页
+a1.close()
