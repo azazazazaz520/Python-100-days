@@ -19,7 +19,7 @@ a1.set_window_size(800, 600)      #设置窗口大小
 a1.maximize_window()  #最大化窗口
 a1.get_screenshot_as_file('baidu.png')  #截图并保存
 #等待2秒
-sleep(2)
+#sleep(2)
 a1.minimize_window()  #最小化窗口
 sleep(2)
 #关闭当前标签页
