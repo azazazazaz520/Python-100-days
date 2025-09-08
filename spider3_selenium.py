@@ -21,6 +21,6 @@ a1.get_screenshot_as_file('baidu.png')  #截图并保存
 #等待2秒
 #sleep(2)
 a1.minimize_window()  #最小化窗口
-sleep(2)
+#sleep(2)
 #关闭当前标签页
 a1.close()
